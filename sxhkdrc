@@ -1,0 +1,17 @@
+ # Volume settings
+
+XF86AudioRaiseVolume
+	amixer -D pipewire sset Master 5%+
+
+XF86AudioLowerVolume
+	amixer -D pipewire sset Master 5%-
+
+XF86AudioMicMute
+	amixer -D pipewire ​set​ Master 1+ toggle  
+
+super +f
+	librewolf
+super + e
+	thunar
+super + shift + s
+	xfce4-screenshooter
